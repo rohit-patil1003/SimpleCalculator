@@ -1,43 +1,19 @@
-import java.util.Scanner;
+# Simple Calculator
+It is a easy java console- based application . In this we can perform different operation on two numbers , operations be like addition , multiplication, division , substraction.
 
-public class Calculator {
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+## languages 
+. java
+## Files
+Calculator.java
 
-        System.out.print("Enter First Number: ");
-        double num1 = sc.nextDouble();
+## How to use .
+1.Run java file.
+2.Make sure Java is already installed.
+3.Take the input of two numbers.
+4.Select the operation.
+5.Your answer will show on the screen.
 
-        System.out.print("Enter Second Number: ");
-        double num2 = sc.nextDouble();
+## Developer :
+*Rohit Patil
 
-        System.out.println("1: Addition (+)");
-        System.out.println("2: Substraction (-)");
-        System.out.println("3: Multiplication (*)");
-        System.out.println("4: Division (/)");
-        System.out.print("Choose Your Type : ");
-        int choice = sc.nextInt();
-
-        double result = 0;
-
-        switch (choice) {
-            case 1:
-                result = num1 + num2;
-                break;
-            case 2:
-                result = num1 - num2;
-                break;
-            case 3:
-                result = num1 * num2;
-                break;
-            case 4:
-                result = num1 / num2;
-                break;
-            default:
-                System.out.println("Wrong Type Choosen!");
-                return;
-        }
-
-        System.out.println("Answer: " + result);
-    }
-}
-
+The main purpose of this java project  is to learn java and upload the project on GitHub.
